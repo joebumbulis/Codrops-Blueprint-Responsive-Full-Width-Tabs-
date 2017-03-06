@@ -1,0 +1,45 @@
+h2 {
+  margin-top: 2.8rem;
+  letter-spacing: .5rem;
+  font-size: 1rem;
+  position: relative; }
+
+h1 {
+  font-size: 2rem;
+  margin: .7rem 3.6rem;
+  line-height: 2.7rem; }
+
+ul {
+  list-style: none; }
+
+ul li {
+  display: inline-block; }
+
+.info-nav {
+  margin-right: 2.3rem; }
+  .info-nav * {
+    font-size: 3rem; }
+
+.pages {
+  margin-top: 2.5rem; }
+  .pages i {
+    font-size: 3rem;
+    color: #C2CCD2;
+    border: solid .1rem #C2CCD2;
+    padding: .2rem 1rem; }
+
+* {
+  color: #3A90D1;
+  font-family: 'Raleway', sans-serif; }
+
+body {
+  text-align: center; }
+
+div {
+  margin: 6rem 8rem;
+  background-color: #3A90D1; }
+
+i {
+  font-size: 4rem; }
+
+/*# sourceMappingURL=main.css.map */
