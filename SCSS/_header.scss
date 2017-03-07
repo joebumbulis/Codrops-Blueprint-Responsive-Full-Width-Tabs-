@@ -23,6 +23,7 @@ ul {
 ul li {
   display: inline-block;
 }
+
 .info-nav {
   margin-right: 2.3rem;
 
@@ -32,14 +33,15 @@ ul li {
 }
 
 .pages {
+  font-size: 2.9rem;
   margin-top: 2.5rem;
-  border-bottom: solid .1rem #3A90D1;
-
+  border-bottom: solid .1rem $color-primary;
+  margin-bottom: 4rem;
+  min-width: 510px;
 
   i {
-    font-size: 3rem;
-    color: #C2CCD2;
-    border: solid .1rem #C2CCD2;
+    color: $color-secondary;
+    border: solid .1rem $color-secondary;
     padding: .2rem 1rem;
   }
 }

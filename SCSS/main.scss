@@ -1,8 +1,10 @@
+@import "vars";
 @import "header";
 @import "footer";
 
+
 * {
-  color: #3A90D1;
+  color: $color-primary;
   font-family: 'Raleway', sans-serif;
 
 }
@@ -12,8 +14,8 @@ body {
 }
 
 div {
-  background: #3A90D1;
-  margin: 4.1rem 4.5rem 1.9rem 4.5rem;
+  background: $color-primary;
+  margin: 0 4.5rem 1.9rem 4.5rem;
 }
 
 .explanation i {
@@ -26,4 +28,9 @@ div {
 
 h3 {
   font-weight: 900;
+  margin-bottom: 1.5rem
+}
+p {
+  margin: 0 2rem 3.1rem;
+  line-height: 1.5rem;
 }
