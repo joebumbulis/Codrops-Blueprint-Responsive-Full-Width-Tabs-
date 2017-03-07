@@ -4,6 +4,7 @@ h2 {
   margin-top: 2.8rem;
   letter-spacing: .5rem;
   font-size: 1rem;
+  text-transform: uppercase;
   position: relative;
 }
 
@@ -39,9 +40,27 @@ ul li {
   margin-bottom: 4rem;
   min-width: 510px;
 
-  i {
-    color: $color-secondary;
-    border: solid .1rem $color-secondary;
-    padding: .2rem 1rem;
+
+.fa-hand-rock-o {
+  border-bottom: solid .1rem $color-primary;
+  border-top: solid .1rem $color-primary;
+  border-right: solid .1rem $color-primary;
+  border-left: transparent;
   }
+
+i {
+  color: $color-secondary;
+  border: solid .1rem $color-secondary;
+  padding: .2rem 1rem;
+  }
+}
+
+@media (min-width: 510px) {
+  .fa-hand-rock-o {
+    border-left: solid .1rem $color-primary;
+  }
+}
+
+@media (min-width: 840px) {
+
 }
