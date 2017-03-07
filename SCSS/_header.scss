@@ -62,5 +62,33 @@ i {
 }
 
 @media (min-width: 840px) {
+  h2 {
+    margin-left: 6%;
+  }
+  h1 {
+    display: inline-block;
+    width: 55%;
 
+  }
+  ul {
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .pages {
+    width: 100%;
+
+    .fa-hand-rock-o {
+      border-left: solid .1rem $color-primary;
+    }
+    i {
+      padding: .2rem 3rem;
+      margin: 0;
+    }
+  }
 }
